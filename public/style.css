@@ -24,11 +24,12 @@ body {
     background-position:-2rem;
     background-size: cover;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 
-.aboutMeContainer, .socials{
+.aboutMeContainer, .socials, .emailForm{
     padding: 3% 0;
 }
 
@@ -64,3 +65,42 @@ body {
     border-image-source: linear-gradient(to left, #f08c1b, #d53a9d);
 }
 
+.emailForm label{
+    font-family:'Bebas Neue', cursive; ;
+}
+
+.form-control{
+    background-color: #191919;
+    border-color: slategray;
+    color: #fff;
+}
+
+.form-control::placeholder{
+    color: rgb(204, 204, 204);
+}
+
+.formContainer{
+    padding: 1% 0%;
+}
+
+.formContainer label{
+    color: #fff;
+    padding-top: 10px;
+}
+.formBtn{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+
+.phone{
+    margin-top: 20px;
+    color: dimgrey;
+}
+.fa-brands{
+    background-image: linear-gradient(to left, #f08c1b, #d53a9d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
